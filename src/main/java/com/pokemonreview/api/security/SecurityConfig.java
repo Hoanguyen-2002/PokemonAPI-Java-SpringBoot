@@ -32,7 +32,6 @@ public class SecurityConfig {
         http
                 .csrf(csrf -> csrf.disable())
                 .exceptionHandling(exceptionHandling -> exceptionHandling
-
                         .authenticationEntryPoint(authEntryPoint) // Ensure authEntryPoint is defined as a bean
                 )
                 .sessionManagement(sessionManagement -> sessionManagement
