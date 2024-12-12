@@ -2,8 +2,8 @@ package com.pokemonreview.api.Service;
 
 import com.pokemonreview.api.dto.PokemonDto;
 import com.pokemonreview.api.dto.ReviewDto;
-import com.pokemonreview.api.models.Pokemon;
-import com.pokemonreview.api.models.Review;
+import com.pokemonreview.api.entity.Pokemon;
+import com.pokemonreview.api.entity.Review;
 import com.pokemonreview.api.repository.PokemonRepository;
 import com.pokemonreview.api.repository.ReviewRepository;
 import com.pokemonreview.api.service.impl.ReviewServiceImpl;
