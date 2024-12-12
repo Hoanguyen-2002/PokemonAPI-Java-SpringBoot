@@ -1,7 +1,7 @@
 package com.pokemonreview.api.security;
 
-import com.pokemonreview.api.models.Role;
-import com.pokemonreview.api.models.UserEntity;
+import com.pokemonreview.api.entity.Role;
+import com.pokemonreview.api.entity.UserEntity;
 import com.pokemonreview.api.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

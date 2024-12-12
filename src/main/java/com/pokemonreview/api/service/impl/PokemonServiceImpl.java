@@ -3,7 +3,7 @@ package com.pokemonreview.api.service.impl;
 import com.pokemonreview.api.dto.PokemonDto;
 import com.pokemonreview.api.dto.PokemonResponse;
 import com.pokemonreview.api.exceptions.PokemonNotFoundException;
-import com.pokemonreview.api.models.Pokemon;
+import com.pokemonreview.api.entity.Pokemon;
 import com.pokemonreview.api.repository.PokemonRepository;
 import com.pokemonreview.api.service.PokemonService;
 import org.springframework.beans.factory.annotation.Autowired;
