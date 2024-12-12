@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 //extend detail page tag when use getall API
-public class PokemonResponse {
+public class  PokemonResponse {
     private List<PokemonDto> content;
     private int pageNo;
     private int pageSize;
